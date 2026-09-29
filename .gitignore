@@ -1,0 +1,21 @@
+# Локальные настройки OpenCode
+opencode.local.json
+opencode.local.jsonc
+.opencode/
+
+# Секреты — все .env файлы, кроме .env.example
+.env
+.env.*
+!.env.example
+deployments/.env
+deployments/.env.*
+!deployments/.env.example
+
+# Документы (локальные)
+*.docx
+generate_api_doc.py
+
+# Windows
+desktop.ini
+Thumbs.db
+NUL
